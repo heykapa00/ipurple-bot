@@ -183,6 +183,20 @@ def notify(title: str, message: str) -> None:
     notify_discord(title, message)
 
 
+def seed_state() -> None:
+    """Zapisuje aktualna liste produktow jako punkt odniesienia, BEZ wysylania
+    jakichkolwiek powiadomien. Uzyj tego raz na starcie (albo po dodaniu nowej
+    frazy wyszukiwania), zeby bot nie zaspamil Cie wiadomosciami o wszystkich
+    juz istniejacych produktach."""
+    new_state = fetch_products()
+    if not new_state:
+        print("[OSTRZEZENIE] Nie znaleziono zadnych produktow - nic nie zapisano.")
+        return
+    save_state(new_state)
+    print(f"[OK] Zapisano stan poczatkowy: {len(new_state)} produktow. "
+          f"Od teraz powiadomienia beda przychodzic tylko dla realnych zmian.")
+
+
 def check_once() -> None:
     old_state = load_state()
     new_state = fetch_products()
@@ -210,6 +224,10 @@ def check_once() -> None:
 
 
 def main():
+    if "--seed" in sys.argv:
+        seed_state()
+        return
+
     if "--once" in sys.argv:
         # Tryb jednorazowy - uzywany przez harmonogram GitHub Actions
         # (to on odpowiada za cykliczne uruchamianie, skrypt tylko sprawdza raz i konczy dzialanie).
