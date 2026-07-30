@@ -2,7 +2,7 @@ name: iPurple Monitor
 
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
       mode:
