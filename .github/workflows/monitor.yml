@@ -39,10 +39,7 @@ jobs:
             python ipurple_monitor.py --once
           fi
 
-      - name: Zapisz zaktualizowany stan (ipurple_state.json)
+      - name: Debug state
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ipurple_state.json
-          git diff --staged --quiet || git commit -m "Aktualizacja stanu monitora [skip ci]"
-          git push
+              ls -la
+              cat ipurple_state.json || true
