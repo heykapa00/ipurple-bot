@@ -2,11 +2,17 @@ name: iPurple Monitor
 
 on:
   schedule:
-    # co 15 minut - dla PRYWATNEGO repo lepiej zwiekszyc do co 20-30 min
-    # (darmowy limit GitHub Actions dla prywatnych repo to 2000 min/miesiac;
-    # publiczne repo ma nielimitowane minuty)
     - cron: "*/15 * * * *"
-  workflow_dispatch: {}  # pozwala tez uruchomic recznie z zakladki "Actions"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Tryb uruchomienia"
+        required: true
+        default: "normal"
+        type: choice
+        options:
+          - normal
+          - seed
 
 jobs:
   check:
@@ -26,7 +32,12 @@ jobs:
       - name: Uruchom sprawdzenie sklepu
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python ipurple_monitor.py --once
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "seed" ]; then
+            python ipurple_monitor.py --seed
+          else
+            python ipurple_monitor.py --once
+          fi
 
       - name: Zapisz zaktualizowany stan (ipurple_state.json)
         run: |
