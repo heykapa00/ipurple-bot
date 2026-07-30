@@ -26,14 +26,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
-
       - name: Uruchom sprawdzenie sklepu
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          if [ "${{ github.event.inputs.mode }}" = "seed" ]; then
+          MODE="${{ github.event.inputs.mode }}"
+          if [ "$MODE" = "seed" ]; then
             python ipurple_monitor.py --seed
           else
             python ipurple_monitor.py --once
