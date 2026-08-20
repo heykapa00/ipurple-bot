@@ -44,7 +44,7 @@ BASE_SEARCH_URL = "https://ipurple.eu/gb/module/ambjolisearch/jolisearch"
 CHECK_INTERVAL_SECONDS = 900
 
 # Maksymalna liczba stron wynikow do przejrzenia (paginacja)
-MAX_PAGES = 5
+MAX_PAGES = 10
 
 # Plik, w ktorym zapisywany jest stan miedzy uruchomieniami
 STATE_FILE = Path(__file__).parent / "ipurple_state.json"
