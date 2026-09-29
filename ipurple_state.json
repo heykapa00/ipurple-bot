@@ -127,7 +127,7 @@
   "10309": {
     "name": "[LAST PRE-ORDER] BTS - Fabric Bag ['Arirang' World Tour] [10309]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/-lastbts-fabric-bag-arirang-world-tour-10309-.html",
-    "in_stock": false
+    "in_stock": true
   },
   "10307": {
     "name": "[LAST PRE-ORDER] BTS - S/S Jersey ['Arirang' World Tour] [10307]",
@@ -147,7 +147,7 @@
   "10298": {
     "name": "[LAST PRE-ORDER] BTS - Army Bomb Plush Keyring ['Arirang' World Tour] [10298]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/-lastbts-army-bomb-plush-keyring-arirang-world-tour-10298-.html",
-    "in_stock": false
+    "in_stock": true
   },
   "10297": {
     "name": "[LAST PRE-ORDER] BTS - Multi Strap ['Arirang' World Tour] [10297]",
@@ -217,11 +217,16 @@
   "10238": {
     "name": "[LAST PRE-ORDER] BTS - Poster [Arirang] [10238]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/-lastbts-poster-arirang-10238-.html",
-    "in_stock": false
+    "in_stock": true
   },
   "10237": {
     "name": "[LAST PRE-ORDER] BTS - S/S T-Shirt (Member ver.) [Arirang] [10237]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/-lastbts-ss-t-shirt-member-ver-arirang-10237-.html",
+    "in_stock": true
+  },
+  "10236": {
+    "name": "[LAST PRE-ORDER] BTS - S/S T-Shirt (BTS) [Arirang] [10236]",
+    "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/-lastbts-ss-t-shirt-bts-arirang-10236-.html",
     "in_stock": true
   },
   "10116": {
@@ -412,6 +417,11 @@
   "9381": {
     "name": "BTS - Arirang [9381]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/bts-arirang-9381-.html",
+    "in_stock": true
+  },
+  "10295": {
+    "name": "[LAST PRE-ORDER] BTS - Official Light Stick Ver.4 Parts (Tour ver.) [10295]",
+    "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/-lastbts-official-light-stick-ver4-parts-tour-ver-10295-.html",
     "in_stock": true
   }
 }
