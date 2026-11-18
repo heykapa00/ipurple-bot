@@ -107,7 +107,7 @@
   "11640": {
     "name": "[PRE-ORDER] BTS - Zip-Up Hoodie Europe Ver. [Arirang World Tour] [11640]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/bts-zip-up-hoodie-europe-ver-arirang-world-tour-11640-.html",
-    "in_stock": false
+    "in_stock": true
   },
   "11639": {
     "name": "[PRE-ORDER] BTS - Tour Stamp Europe Ver. [Arirang World Tour] [11639]",
@@ -143,11 +143,6 @@
     "name": "BTS - BTS x Urban Sophistication Souvenir Bottle ['Arirang' World Tour] [10310]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/bts-bts-x-urban-sophistication-souvenir-bottle-arirang-world-tour-10310-.html",
     "in_stock": true
-  },
-  "10309": {
-    "name": "[LAST PRE-ORDER] BTS - Fabric Bag ['Arirang' World Tour] [10309]",
-    "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/-lastbts-fabric-bag-arirang-world-tour-10309-.html",
-    "in_stock": false
   },
   "10307": {
     "name": "[LAST PRE-ORDER] BTS - S/S Jersey ['Arirang' World Tour] [10307]",
@@ -318,6 +313,11 @@
     "name": "BTS - Arirang [9381]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/bts-arirang-9381-.html",
     "in_stock": true
+  },
+  "10309": {
+    "name": "[LAST PRE-ORDER] BTS - Fabric Bag ['Arirang' World Tour] [10309]",
+    "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/-lastbts-fabric-bag-arirang-world-tour-10309-.html",
+    "in_stock": false
   },
   "10295": {
     "name": "[LAST PRE-ORDER] BTS - Official Light Stick Ver.4 Parts (Tour ver.) [10295]",
