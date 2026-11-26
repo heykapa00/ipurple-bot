@@ -59,11 +59,6 @@
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/bts-ss-photo-t-shirt-gray-arirang-world-tour-2nd-drop-12021-.html",
     "in_stock": false
   },
-  "12020": {
-    "name": "[HOT] BTS - Bandana Keyring Set ['Arirang World Tour' 2nd Drop] [12020]",
-    "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/bts-bandana-keyring-set-arirang-world-tour-2nd-drop-12020-.html",
-    "in_stock": true
-  },
   "12019": {
     "name": "BTS - Scarf ['Arirang World Tour' 2nd Drop] [12019]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/bts-scarf-arirang-world-tour-2nd-drop-12019-.html",
@@ -147,7 +142,7 @@
   "10309": {
     "name": "[LAST PRE-ORDER] BTS - Fabric Bag ['Arirang' World Tour] [10309]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/-lastbts-fabric-bag-arirang-world-tour-10309-.html",
-    "in_stock": true
+    "in_stock": false
   },
   "10307": {
     "name": "[LAST PRE-ORDER] BTS - S/S Jersey ['Arirang' World Tour] [10307]",
@@ -327,6 +322,11 @@
   "9381": {
     "name": "BTS - Arirang [9381]",
     "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/bts-arirang-9381-.html",
+    "in_stock": true
+  },
+  "12020": {
+    "name": "BTS - Bandana Keyring Set ['Arirang World Tour' 2nd Drop] [12020]",
+    "url": "https://ipurple.eu/gb/kpop/browse-kpop-artist/boy-groups/bts/bts-bandana-keyring-set-arirang-world-tour-2nd-drop-12020-.html",
     "in_stock": true
   },
   "10295": {
